@@ -8,7 +8,7 @@
   
   def back_project(project)
     #which is better @backed_projects or backed_projects
-    @backed_projects << project
+    backed_projects << project
     project.backers << self
   end
 end
